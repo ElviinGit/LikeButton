@@ -22,8 +22,6 @@ slap_dislike_tansition = {
 def slap_like (s: LikeState) -> LikeState:
     return slap_like_transition[s]
 
-def slap_dislike (s: LikeState) -> LikeState:
-    return slap_dislike_tansition[s]
 
 def slap_many(s: LikeState, slaps: str) -> LikeState:
     for c in slaps:
