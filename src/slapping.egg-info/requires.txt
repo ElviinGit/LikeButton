@@ -1,0 +1,8 @@
+requests>=2
+
+[testing]
+pytest>=8.0.2
+pytest-cov>=4.1.0
+mypy>=1.8.0
+flake8>=7.0.0
+tox>=4.13.0
